@@ -1,4 +1,6 @@
 #!/bin/bash
 
 # /usr/bin/env figlet "$(hostname)" | /usr/bin/env lolcat -f
+
+# If lolcat isn't in $PATH, hostname-color may not be displayed. e.g. /usr/games/lolcat
 /usr/bin/env figlet -t -w 90 "welcome to $(hostname)" | /usr/bin/env lolcat -f

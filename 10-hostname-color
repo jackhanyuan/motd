@@ -1,3 +1,4 @@
 #!/bin/bash
 
-/usr/bin/env figlet "$(hostname)" | /usr/bin/env lolcat -f
+# /usr/bin/env figlet "$(hostname)" | /usr/bin/env lolcat -f
+/usr/bin/env figlet -t -w 90 "welcome to $(hostname)" | /usr/bin/env lolcat -f
